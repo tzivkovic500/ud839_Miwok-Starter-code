@@ -17,6 +17,9 @@ public class Word {
     /** Miwok translation for the word */
     private String mMiwokTranslation;
 
+    /** Miwok for get imagees*/
+    private int mImageResourceId;
+
     /**
      * Create a new Word object. Word je Constractor.
      *
@@ -27,6 +30,10 @@ public class Word {
     public Word(String defaultTranslation, String miwokTranslation) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
+    }
+
+    public int getImageResourceId(){
+        return mImageResourceId;
     }
     /**
      * Get the default translation method of the word.
