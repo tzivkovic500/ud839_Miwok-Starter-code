@@ -171,6 +171,9 @@ public class NumbersActivity extends AppCompatActivity {
             // Regardless of whether or not we were granted audio focus, abandon it. This also
             // unregisters the AudioFocusChangeListener so we don't get anymore callbacks.
             mAudioManager.abandonAudioFocus(mOnAudioFocusChangeListener);
+
+
+
         }
     }
         }
